@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> Nolan's Car Garage </title>
+	<link rel="stylesheet" type="text/css" href="css/css.css" >
+	<style>
+	
+
+
+	</style>
+	
+
+	
+	
+	</head>
+	
+	
+ <body>
+
+   <div id="wrapper">
+    <div id="title"> 
+	<script>
+
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+document.write("<small><font color='000000' face='Arial'><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"</b></font></small>")
+
+</script>
+
+
+
+	<p> <b> Nolans Car Garage</b> - Killiney Dublin </p>
+	</div>
+	<header>
+	 <img src="logo.png"/>
+	</header>
+	 <nav class="clearfix">
+		<ul class="clearfix">
+			<li class="active"> <a href="Homepage.html"> Home </a> </li>
+			<li class="active"> <a href="New Cars.html" target="_blank"> New Cars </a> </li>
+			<li class="active"> <a href="Used Cars.html" target="_blank"> Used Cars </a> </li>
+			<li class="active"> <a href="newshomepage.html" target="_blank"> News </a> </li>
+			<li class="active"> <a href="Contact Us.html" target="_blank"> Contact Us </a> </li>
+		</ul>
+		
+	 </nav>
+	 <div id="slideshow">
+	 
+<script type="text/javascript"> 
+var i = 0; 
+var image = new Array();   
+// LIST OF IMAGES 
+image[0] = "mercedes c class coupe.jpg"; 
+image[1] = "mercedes a class.jpg"; 
+image[2] = "christmas.jpg";
+image[3] = "gla.jpg";
+var k = image.length-1;    
+
+var caption = new Array(); 
+// LIST OF CAPTIONS 
+caption[0] = ""; 
+caption[1] = ""; 
+caption[2] = ""; 
+caption[3] = ""
+
+var link= new Array();   
+// LIST OF LINKS 
+link[0] = "c class.html"; 
+link[1] = "a class.html"; 
+link[2] = "https://epaper.mercedes-benz-accessories.com/mc/epaper?guid=15042adeb9f13a52";
+link[3] = "gla class.html";   
+    
+
+function swapImage(){ 
+var el = document.getElementById("mydiv"); 
+el.innerHTML=caption[i]; 
+var img = document.getElementById("slide"); 
+img.src= image[i]; 
+var a = document.getElementById("link"); 
+a.href= link[i]; 
+
+if(i < k ) { i++;}  
+else  { i = 0; } 
+setTimeout("swapImage()",3000); 
+} 
+function addLoadEvent(func) { 
+var oldonload = window.onload; 
+if (typeof window.onload != 'function') { 
+window.onload = func; 
+} else  { 
+window.onload = function() { 
+if (oldonload) { 
+oldonload(); 
+} 
+func(); 
+} 
+} 
+} 
+addLoadEvent(function() { 
+swapImage(); 
+});  
+</script> 
+<table style="border:none;background-color:transparent;"> 
+<tr> 
+<td> 
+<a name="link" id="link" href="http://www.siteforinfotech.com/" target="_blank"><img name="slide" id="slide" height="285" width="485" src="image-1.png"/></a> 
+</td> 
+</tr> 
+<tr> 
+<td align="center"style="font:small-caps bold 15px georgia; color:blue;"> 
+<div id ="mydiv"></div>
+</td> 
+</tr>  
+</table>
+
+	 </div>
+	 <div class="section">
+		 <h3> Location  </h3>
+			<img src="Nolans Garage.jpg" height="250" width="29%"/>
+			<p>  Located on the East coast of Ireland, our new premises are not only easy to get to , they also offer a fantastic view, and the building is made with modern, high quality materials, designed to look modern and welcoming</p>
+		 </div>
+		 <div class="section">
+		 <h3> Showroom </h3>
+		 <img src="Mercedes 2.jpg" height="250" width="29%" />
+		 <p> Our state of the art showroom will showcase some of our best cars while also making you feel comfortable and welcome. Despite the modern design our showroom will make you feel at ease and will help you find what you are looking for. </p>
+		 </div>
+		<div class="section">
+		<h3> Staff </h3>
+			<img src="staff.jpg" height="250" width="29%"/>
+			<p> Our friendly staff have been through training to ensure they can answer all your questions. Our staff will always be on hand to help you solve whatever problem your having, and will help you find the car of your dreams. </p>
+		</div>
+<
+		<footer>
+		 <div class="section">
+		 <p> <b> Nolans Car Garage </b> </p>
+		 <p> <b> Call us - 051 876 9816 </b> <br>
+		 2 Harbour Rd, <br>
+		 Killiney, <br>
+		 Dublin <br>
+		 NolansCarGarage@gmail.com</p>
+		 <a href="Contact Us.html" target="_blank"> <img src="location.png" /> </a>
+		 </div>
+		 <div class="section">
+		 <p> <b> Connect with us </b> </p>
+			<ul> 
+				<li> <a href="https://www.facebook.com/NolansCarGarage" target="_blank"><img src="facebook.png"/> </a> </li>
+				<li> <a href="https://twitter.com/nolanscargarage" target="_blank" height="44px" width="44px"><img src="twitter.png"/> </a> </li>
+				<li> <a href="https://plus.google.com/u/2/110155823369852467546/posts?hl=en" target="_blank"> <img src="google plus.png"/> </a> <li>
+			</ul>
+			<p> <b> Opening Hours </b> </p>
+				<table border="1">
+					<tbody>
+						<tr>
+							<th> Monday - Friday </th>
+							<td>      9-6pm      </td>
+						</tr>
+						<tr>
+							<th>Saturday </th>
+							<td> 9-3pm </td>
+						</tr>
+					</tbody>
+				</table>
+		 </div>
+		 <div class="section">
+		 <img src="Logo.png"/>
+	
+		 </div>
+		</footer>
+	</div>
+ </body>
+</html>

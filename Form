@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> Nolan's Car Garage-Contact Us </title>
+
+  <link rel="stylesheet" type="text/css" href="css/css.css" >
+  <style>
+  
+ 
+  
+  
+
+</style>
+
+ </head>
+ 
+ <body>
+   <div id="wrapper">
+    <div id="title">
+	<p> <b> Nolans Car Garage</b> - Killiney Dublin </p>
+	</div>
+	<header>
+	 <img src="logo.png"/>
+	</header>
+	 <nav>
+		<ul>
+			<li class="active"> <a href="Homepage.html"> Home </a> </li>
+			<li class="active"> <a href="New Cars.html"> New Cars </a> </li>
+			<li class="active"> <a href="£"> Used Cars </a> </li>
+			<li class="active"> <a href="£"> Services </a> </li>
+			<li class="active"> <a href="£"> News </a> </li>
+			<li class="active"> <a href="Contact Us.html"> Contact Us </a> </li>
+		</ul>
+	 </nav>
+	 <div class="form">
+	 
+			
+			<script language="JavaScript" type="text/javascript">
+
+			function validateForm(form){
+				
+			var fNm = form.fname.value;
+			var eMl = form.email.value;
+			var apos=eMl.indexOf("@");
+			var dotpos=eMl.lastIndexOf(".");
+			var pwrd=form.pwrd.value;
+			var sname=form.sname.value;
+			var cat=form.cat.value;
+			var country=form.country.value;
+				
+			  if (fNm == "" || fNm == null){
+			    alert( "Please enter your name." );
+			    form.fname.focus();
+			    return false;
+			  }
+			  if (sname == "" || sname == null){
+			    alert( "Please enter your surname." );
+			    form.sname.focus();
+			    return false;
+				}
+			  
+			  else if(eMl == ""  || eMl == null){
+				alert( "Please enter your email." );
+			    form.email.focus();
+			    return false;
+			  }
+			   else if(pwrd == "" || pwrd == null) {
+				alert( "Please enter a password") ;
+				form.pwrd.focus();
+				return false;
+			  }
+			  else if(apos<1||dotpos-apos<2){
+			    alert( "Not a valid email." );
+			    form.email.focus();
+			    return false;
+			  }
+			  
+				if (country == "" || country == null){
+			    alert( "Please select a country" );
+			    form.country.focus();
+			    return false;
+			}
+			  else{
+			  	return true;
+			  }
+			
+			}
+			</script>
+			
+
+	
+		<!-- Form markup--> 
+
+			</br>
+			</br>
+			</br>
+	<h3> Become a member today, for special deals and packages.  </h3>
+		<p> <b> Sign up for our newsletter and find out about our latest deals before anyone else. </b> </p>
+		
+		<form method = "post" action = "mailto:x15411762@student.ncirl.ie" onsubmit="return validateForm(this);">
+	<table>
+	<tr>	<td><b>First Name:</b></td>
+			<td><input name = "fname" type = "text"  tabindex="1" /></td>
+	</tr>
+	<tr>	<td><b> Surname:</b></td>
+			<td><input name = "sname" type = "text" /></td>
+	</tr>
+	<tr>	<td><b>Password:</b></td>
+			<td><input name = "pwrd" type = "password" /></td>
+	</tr>
+	<tr>	<td><b>Email:</b></td>
+			<td><input name = "email" type = "text" /></td>
+	</tr>	
+	
+	<tr>	
+			<td><label for = "nLtr"><b>Subscribe to Newsletter</b></label></td>
+			<td><input type = "checkbox" name = "newsLtr" value = "yes" id = "nLtr" /></td>
+	</tr>
+	<tr>
+		<td> <b> Choose Type of membership : </b> </br> </td>
+		
+		<td>Free membership:  <input type = "radio" name = "cat" value = "a" />
+			sds:  <input type = "radio" name = "cat" value = "b" />
+			Premium Membership:	<input type = "radio" name = "cat" value = "c" /> </td>
+		
+	</tr>
+	
+	<tr>
+		<td><b> Country </b> </td>
+		<td><select multiple name = "country">
+			 <optgroup label="Country" />
+				<option value = "irl">Ireland	</option>
+				<option value = "fr">France	</option>
+				<option value = "eng">England	</option>
+				<option value = "sp">Spain	</option>
+			
+			
+			</select>
+			
+		
+		</td>
+		
+	</tr>
+	
+	</table>	
+		
+		<input type = "submit" value = "Submit" />
+		<input type = "reset" />
+		
+		</form>
+		</br>
+		</br>
+		
+		
+
+	
+		
+	</body>
+
+	 
+	 
+	 </div>
+	 
+	 <footer>
+		 <div class="section">
+		 <p> <b> Nolans Car Garage </b> </p>
+		 <p> <b> Call us - 051 876 9816 </b> <br>
+		 2 Harbour Rd, <br>
+		 Killiney, <br>
+		 Dublin <br>
+		 NolansCarGarage@gmail.com</p>
+		 <a href="Contact Us.html" target="_blank"> <img src="location.png" /> </a>
+		 </div>
+		 <div class="section">
+		 <p> <b> Connect with us </b> </p>
+			<ul> 
+				<li> <a href="https://www.facebook.com/NolansCarGarage" target="_blank"><img src="facebook.png"/> </a> </li>
+				<li> <a href="https://twitter.com/nolanscargarage" target="_blank" height="44px" width="44px"><img src="twitter.png"/> </a> </li>
+				<li> <a href="https://plus.google.com/u/2/110155823369852467546/posts?hl=en" target="_blank"> <img src="google plus.png"/> </a> <li>
+			</ul>
+			<p> <b> Opening Hours </b> </p>
+				<table border="2">
+					<tbody>
+						<tr>
+							<th> Monday - Friday </th>
+							<td>      9-6pm      </td>
+						</tr>
+						<tr>
+							<th>Saturday </th>
+							<td> 9-3pm </td>
+						</tr>
+					</tbody>
+				</table>
+		 </div>
+		 <div class="section">
+		 <img src="Logo.png"/>
+		 </div>
+		</footer>
+	</div>
+	</body>
+</html>

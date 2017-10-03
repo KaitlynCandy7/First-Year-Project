@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> Nolan's Car Garage-Contact Us </title>
+
+  <link rel="stylesheet" type="text/css" href="css/css.css" >
+  <style>
+   #sidebar
+{
+    float: left;
+    min-height: 700px;
+    background-color: #990000;
+	padding-left: 50px;
+	max-width: 12.8%;
+	margin-left: 50px;
+	padding: 5px 12px;
+	
+}
+
+</style>
+
+<style>
+nav a:hover, nav a:active {
+background-color: #8c99a4;
+}
+</style>
+
+ </head>
+ 
+ <body>
+   <div id="wrapper">
+    <div id="title">
+	<p> <b> Nolans Car Garage</b> - Killiney Dublin </p>
+	</div>
+	<header>
+	 <img src="logo.png"/>
+	</header>
+	 <nav>
+		<ul>
+			<li class="active"> <a href="Homepage.html"> Home </a> </li>
+			<li class="active"> <a href="New Cars.html"> New Cars </a> </li>
+			<li class="active"> <a href="£"> Used Cars </a> </li>
+			<li class="active"> <a href="£"> Services </a> </li>
+			<li class="active"> <a href="£"> News </a> </li>
+			<li class="active"> <a href="Contact Us.html"> Contact Us </a> </li>
+		</ul>
+	 </nav>
+	 <div id="sidebar"> news stand section </div>
+	 
+	 	 <table>
+		 <table cellspacing="20">
+		 <tr>
+		 <td>vintage mercedes sells for 30 million </td>
+		 <td>  c class wins car of the year </td>
+		 <td>  mercedes engine profromance </td>
+		 </tr>
+  <tr> 
+    <td><a href="vintage.html"><img src="vintage.jpg"style="width:304px;height:228px;"></td>
+    <td><a href="awards.html"><img src="awards.jpg" style="width:304px;height:228px;"></td> 
+    <td><a href="engine.html"><img src="engine.jpg" style="width:304px;height:228px;"></td>
+  </tr>
+  
+   </table>
+   <table cellspacing="30">
+		 <tr>
+		 <td> hybryid mercedes </td>
+		 <td>  F1 winning championship team </td>
+		 <td> mercedes sports car  </td>
+		 </tr>
+  <tr>
+    <td><a href="hybryid.html"><img src="hybryid.jpg" style="width:304px;height:228px;"></td>
+    <td><a href="F1 championship team.html"><img src="F1.jpg" style="width:304px;height:228px;"></td> 
+    <td><a href="mercedes sports car.html"><img src="sports car.jpg" style="width:304px;height:228px;"></td>
+  </tr>
+</table>
+	 
+	 <footer>
+		 <div class="section">
+		 <p> <b> Nolans Car Garage </b> </p>
+		 <p> <b> Call us - 051 876 9816 </b> <br>
+		 2 Harbour Rd, <br>
+		 Killiney, <br>
+		 Dublin <br>
+		 NolansCarGarage@gmail.com</p>
+		 <a href="Contact Us.html" target="_blank"> <img src="location.png" /> </a>
+		 </div>
+		 <div class="section">
+		 <p> <b> Connect with us </b> </p>
+			<ul> 
+				<li> <a href="https://www.facebook.com/NolansCarGarage" target="_blank"><img src="facebook.png"/> </a> </li>
+				<li> <a href="https://twitter.com/nolanscargarage" target="_blank" height="44px" width="44px"><img src="twitter.png"/> </a> </li>
+				<li> <a href="https://plus.google.com/u/2/110155823369852467546/posts?hl=en" target="_blank"> <img src="google plus.png"/> </a> <li>
+			</ul>
+			<p> <b> Opening Hours </b> </p>
+				<table border="2">
+					<tbody>
+						<tr>
+							<th> Monday - Friday </th>
+							<td>      9-6pm      </td>
+						</tr>
+						<tr>
+							<th>Saturday </th>
+							<td> 9-3pm </td>
+						</tr>
+					</tbody>
+				</table>
+		 </div>
+		 <div class="section">
+		 <img src="Logo.png"/>
+		 </div>
+		</footer>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,163 @@
+ body {
+	background-image: url("background 2.jpg");
+	background-size: cover;
+	font-family:Verdana, Arial, Sans-Serif;
+	font-size: 18px;
+	overflow: auto;
+ }
+h1, h2, h3 {
+ text-align: center;
+ padding-left: 5%;
+ color: #800000
+}
+p {
+	padding: 2%;
+	color: black;
+}
+
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+#wrapper {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 98%;	
+}
+
+#title {
+	width:100%;
+	height: auto;
+	background: #990000;
+	overflow: hidden;
+	color: white;
+	
+}
+#title p {
+	text-align: right;
+	font-size: 13px;
+	padding: 0.1% 5% 0 0;
+	color: white ;
+}
+
+header {
+	width: 96%;
+	min-height: 125px;
+	padding: 5px;
+	text-align: center;
+	
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 50px;
+	background-color: #990000;
+	width: 90%;
+	text-align: center;
+	position: absolute;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	width: 17%;
+	background-color: #990000;
+	text-align: center;
+}
+nav ul li a {
+	background-color: #990000;
+	display: block;
+	padding: 5px 12px;
+	font-weight: bold;
+	font-size: 70%;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+nav a:hover, nav a:active {
+    background-color: #8c99a4;
+}
+
+.section {
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+
+footer {
+	background: #bfbfbf;
+	width: 100%;
+	overflow: hidden;
+}
+
+footer p, footer h3 {
+	color: black;
+}
+
+footer p a {
+	color: black;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+	margin: 5%;
+	padding: 5%;
+}
+
+footer li {
+	display: inline;
+}
+
+footer ul li img {
+	height: 50px;
+}
+	
+footer table {
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+
+ #maps {
+	display: table;
+  }
+  
+  #maps h3 {
+	text-align: center;
+	}
+	
+#maps p {
+	vertical-align: middle;
+	
+}
+
+#maps iframe {
+	vertical-align: middle;
+	display: table-cell;
+	}
+  
+nav a#pull {
+    display: none;
+}
+
+	#slideshow {
+		width: 98%;
+		text-align: center;
+		margin: 3% 3%;
+	}
+	
+	#slideshow img {
+		width: 110%;
+		height: 90%;
+		text-align: center;
+		margin: 3% 3%;
+	}
+
+
+
